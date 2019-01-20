@@ -1,0 +1,59 @@
+.container-numbers {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-numbers button {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  background: #f45c41;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.message {
+  align-items: center;
+  justify-content: center;
+  /* Alinear texto verticalmente*/
+  display: flex;
+  width: 50%;
+  height: 200px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 5px 5px 20px #cbcdd3;
+  border-radius: 20px;
+}
+
+.message > p {
+  padding-bottom: 5px;
+  color: #fcfcfc;
+  font-size: 35px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.error-message {
+  background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+}
+
+.error-message > p {
+  color: #cf0404;
+}
+
+.succes-message {
+  background: linear-gradient(to bottom right, #b0db7d 40%, #99dbb4 100%);
+}
+
+.succes-message > p {
+  color: #3e6a29;
+}

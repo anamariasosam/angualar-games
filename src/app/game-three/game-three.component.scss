@@ -1,0 +1,55 @@
+button {
+  padding: 16px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: seashell;
+  border: none;
+  border-radius: 12px;;
+}
+
+button:hover {
+  background: salmon;
+  border-color: pink;
+  border-style: solid;
+}
+
+label {
+  white-space: nowrap;
+}
+.childScreen {
+  width: 120px;
+}
+
+.fatherScreen {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  height: 350px;
+  background: #e9dbf1;
+  border-radius: 15px;
+}
+
+.scoreScreen {
+  box-sizing: content-box;
+  padding: 20px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  background: #e9dbf1;
+  border-radius: 15px;
+}
+
+.emoji {
+  font-size: 100px;
+}
+
+.youWinText {
+  color: steelblue;
+  font-size: 60px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}

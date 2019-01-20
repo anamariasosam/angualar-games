@@ -1,0 +1,14 @@
+<h1>💃💃🏻💃🏽 ¡¡¡Ordenemos los números!!! 💃💃🏻💃🏽</h1>
+<button *ngIf="showErrorMessage" (click)="reiniciar()">🔄</button>
+<div class="container-numbers">
+  <div class="button-container" *ngFor="let number of arrayRandomNumbers">
+    <button (click)="clickMe(number)" >{{ number }}</button>
+  </div>
+</div>
+<div class="message succes-message" *ngIf="showSuccessMessage">
+    <p>{{ message }}</p>
+</div>
+<div class="message error-message" *ngIf="showErrorMessage">
+  <p>{{ message }}</p>
+</div>
+
